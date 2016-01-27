@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaappDiyarsPizza"
+        id        = "com.webwapsolutions.epizzaappVesterbroPizzaGrill"
         version   = "1.0.0">
 
-    <name>Diyars Pizza</name>
+    <name>Vesterbro Pizza og Grill</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Diyars Pizza App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Vesterbro Pizza og Grill App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team
@@ -66,8 +66,8 @@
     <preference name="KeepRunning"                value="true"/>
     <preference name="InAppBrowserStorageEnabled" value="true"/>
     
-    <preference name="LoadingDialog" value="Diyars Pizza, Velkommen til Diyars Pizza"/>
-    <preference name="LoadingPageDialog" value="Diyars Pizza, Velkommen til Diyars Pizza"/>
+    <preference name="LoadingDialog" value="Vesterbro Pizza og Grill, Velkommen til Vesterbro Pizza og Grill"/>
+    <preference name="LoadingPageDialog" value="Vesterbro Pizza og Grill, Velkommen til Vesterbro Pizza og Grill"/>
     <preference name="LogLevel" value="WARN"/>
     
     <gap:config-file platform="android" parent="/manifest/application">
@@ -126,18 +126,19 @@
     <icon src="res/screen/generic.png" />
     
     <!-- android icons -->
-	<icon src="res/screen/android/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-	<icon src="res/screen/android/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-	<icon src="res/screen/android/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-	<icon src="res/screen/android/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<icon src="res/screen/android/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<icon src="res/screen/android/fr-xxhdpi.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+	<icon src="res/screen/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="res/screen/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="res/screen/android/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="res/screen/android/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="res/screen/android/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="res/screen/android/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
 	
 	<!-- splash -->
-	<gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/android/ldpi.png" />
-	<gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/mdpi.png" />
-	<gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/hdpi.pngg" />
-	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/xhdpi.pn" />
+	<gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/android/drawable-ldpi/ic_launcher.png" />
+	<gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/drawable-mdpi/ic_launcher.png" />
+	<gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/drawable-hdpi/ic_launcher.png" />
+	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/drawable-xhdpi/ic_launcher.png" />
 	    
 	<gap:splash gap:platform="ios" height="480" width="320" src="res/screen/ios/Default.png" />
 	<gap:splash gap:platform="ios" height="960" width="640" src="res/screen/ios/Default@2x.png" />
