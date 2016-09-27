@@ -69,7 +69,7 @@
                 } else {
                     // external url
                     //navigator.notification.alert('Opening website');
-                    var ref = window.open('http://diyarspizza.dk/?app=1', '_self', 'location=no');
+                    var ref = cordova.InAppBrowser.open('http://diyarspizza.dk/?app=1', '_self', 'location=no');
                     // relative document
                     //ref = window.open('next.html', '_self');                    
                 }
